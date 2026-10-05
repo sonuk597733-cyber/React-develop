@@ -1,4 +1,5 @@
 import MainCard from "./MainCard";
+import Iphone from "../assets/Iphone.png"
 function Product(){
   return (
     <div className="products">
@@ -23,12 +24,24 @@ function Product(){
       }
        />
 
+      <MainCard
+      
+      user={
+        {
+          image:Iphone,
+           title:"Mobile phone",
+           description:"Iphone me photo store hain."
+        }
+      }
+       />
+
 <MainCard
 user={
   {
     image:"https://i.pinimg.com/736x/cd/35/1c/cd351c4f0eab76df223e90aae5ca0612.jpg",
      title:"Rahul",
       description:"Designer"
+
   }
 }
  />
