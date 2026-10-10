@@ -1,0 +1,18 @@
+h1{
+  background-color: rgb(144, 155, 154);
+  width: fit-content;
+ padding:30px 80px; 
+ border-radius: 10px;
+ font-size: 50px;
+ margin: 30px;
+ color: white;
+}
+button{
+  margin-left:20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(193, 93, 181);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
