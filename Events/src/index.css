@@ -1,0 +1,25 @@
+input{
+  padding: 10px 20px;
+margin: 40px ;
+}
+h2{
+  padding: 0px 30px;
+color: aliceblue;
+background-color: rgb(12, 112, 199);
+padding: 10px 20px;
+border-radius: 10px;
+}
+span{
+  font-size: 16px;
+  color: rgb(254, 255, 255);
+  padding: 5px;
+}
+.parent{
+  background-color: blue;
+  padding: 20px;
+  border-radius: 10px;
+}
+button{
+  padding: 10px 20px;
+  margin: 30px 20px;
+}

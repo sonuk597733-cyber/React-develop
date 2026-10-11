@@ -1,0 +1,39 @@
+@import "tailwindcss";
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent{
+  width: 400px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+}
+.header{
+  padding: 15px 20px;
+}
+.header h1{
+  font-weight: 700;
+  font-size: 20px;
+}
+.inter{
+  text-align: center;
+}
+ input{
+  border:2px solid rgb(10, 8, 8);
+  width: 95%;
+  padding: 8px 18px;
+  margin: 10px;
+}
+.inter button{
+ margin-left: 5px;
+ border-radius: 1rem;
+ padding:10px;
+}
