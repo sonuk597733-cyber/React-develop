@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ 
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  width: 50%;
+  border-right: 1px solid white;
+  flex-shrink: 0;
+  overflow: auto;
+}
+
+input {
+  padding: 15px 30px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  width: 100%;
+}
+
+textarea {
+  padding: 15px 30px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  font-family: Arial, Helvetica, sans-serif;
+  resize: none;
+  height: 100px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 15px;
+}
+
+.note {
+  width: 250px;
+  min-height: 300px;
+  padding: 15px;
+  background-image: url("https://www.nicepng.com/png/detail/67-679001_notes-document-notepad-office-reminder-sticky-note-paper.png");
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color:white;
+  border-radius: 10px;
+  overflow-wrap: anywhere;
+  padding-top: 30px;
+}
+
+.note p{
+  margin-top: 20px;
+}
+/* Mobile screen */
+@media (max-width: 768px) {
+ .parent {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.right{
+  width:1000px;
+  padding:20px;
+  margin: 0;
+}
+.note{
+  width: 100%;
+}
+.form,
+.left {
+  width: 50%;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .form,
+  .left {
+    width: 100%;
+  }
+}
+}
